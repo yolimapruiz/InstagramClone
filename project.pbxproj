@@ -16,6 +16,8 @@
 		95FCE72F2B49D972006CE420 /* UserStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FCE72E2B49D972006CE420 /* UserStartView.swift */; };
 		95FCE7312B49F8BF006CE420 /* FeddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FCE7302B49F8BF006CE420 /* FeddView.swift */; };
 		95FCE7332B49F8D1006CE420 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FCE7322B49F8D1006CE420 /* FeedCell.swift */; };
+		95FCE7352B4B7027006CE420 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FCE7342B4B7027006CE420 /* SearchView.swift */; };
+		95FCE7372B4B9DCD006CE420 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FCE7362B4B9DCD006CE420 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		95FCE72E2B49D972006CE420 /* UserStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStartView.swift; sourceTree = "<group>"; };
 		95FCE7302B49F8BF006CE420 /* FeddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeddView.swift; sourceTree = "<group>"; };
 		95FCE7322B49F8D1006CE420 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		95FCE7342B4B7027006CE420 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		95FCE7362B4B9DCD006CE420 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 		95FCE7222B335BB0006CE420 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				95FCE7362B4B9DCD006CE420 /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 		95FCE7262B335BDF006CE420 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				95FCE7342B4B7027006CE420 /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 				95FCE7332B49F8D1006CE420 /* FeedCell.swift in Sources */,
 				95FCE72C2B34E30B006CE420 /* ProfileView.swift in Sources */,
 				95FCE7312B49F8BF006CE420 /* FeddView.swift in Sources */,
+				95FCE7372B4B9DCD006CE420 /* LoginView.swift in Sources */,
 				95FCE72F2B49D972006CE420 /* UserStartView.swift in Sources */,
+				95FCE7352B4B7027006CE420 /* SearchView.swift in Sources */,
 				95FCE7122B335B44006CE420 /* ContentView.swift in Sources */,
 				95FCE7102B335B44006CE420 /* Instagram_cloneApp.swift in Sources */,
 				95FCE72A2B34DEE9006CE420 /* MainTabView.swift in Sources */,
