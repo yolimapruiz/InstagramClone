@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		951817EB2B60561C0035F0A0 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817EA2B60561C0035F0A0 /* EditProfileView.swift */; };
 		951817EF2B60600B0035F0A0 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817EE2B60600B0035F0A0 /* EditProfileViewModel.swift */; };
+		951817F12B687B7D0035F0A0 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817F02B687B7D0035F0A0 /* ImageUploader.swift */; };
 		9552B7682B519EE500C982A4 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552B7672B519EE400C982A4 /* UploadPostView.swift */; };
 		9552B76A2B51A45A00C982A4 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552B7692B51A45A00C982A4 /* UploadPostViewModel.swift */; };
 		9552B76C2B55946700C982A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9552B76B2B55946700C982A4 /* GoogleService-Info.plist */; };
@@ -76,6 +77,7 @@
 /* Begin PBXFileReference section */
 		951817EA2B60561C0035F0A0 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		951817EE2B60600B0035F0A0 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		951817F02B687B7D0035F0A0 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		9552B7672B519EE400C982A4 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		9552B7692B51A45A00C982A4 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		9552B76B2B55946700C982A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				9552B7BB2B5C2A6D00C982A4 /* UserService.swift */,
+				951817F02B687B7D0035F0A0 /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				9552B7B52B55A86800C982A4 /* ContentViewModel.swift in Sources */,
 				951817EB2B60561C0035F0A0 /* EditProfileView.swift in Sources */,
 				9552B7BA2B5888FD00C982A4 /* LoginViewModel.swift in Sources */,
+				951817F12B687B7D0035F0A0 /* ImageUploader.swift in Sources */,
 				9552B7B82B56C8A600C982A4 /* RegistrationViewModel.swift in Sources */,
 				9552B76A2B51A45A00C982A4 /* UploadPostViewModel.swift in Sources */,
 				95FCE74B2B503752006CE420 /* ProfileHeaderView.swift in Sources */,
