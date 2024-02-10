@@ -13,6 +13,8 @@
 		951817F42B7445D20035F0A0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 951817F32B7445D20035F0A0 /* Kingfisher */; };
 		951817F62B7448520035F0A0 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817F52B7448520035F0A0 /* CircularProfileImageView.swift */; };
 		951817FC2B7500200035F0A0 /* Feed ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817FB2B7500200035F0A0 /* Feed ViewModel.swift */; };
+		951817FE2B755C4D0035F0A0 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817FD2B755C4D0035F0A0 /* PostService.swift */; };
+		951818022B76B8790035F0A0 /* PostGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951818012B76B8790035F0A0 /* PostGridViewModel.swift */; };
 		9552B7682B519EE500C982A4 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552B7672B519EE400C982A4 /* UploadPostView.swift */; };
 		9552B76A2B51A45A00C982A4 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552B7692B51A45A00C982A4 /* UploadPostViewModel.swift */; };
 		9552B76C2B55946700C982A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9552B76B2B55946700C982A4 /* GoogleService-Info.plist */; };
@@ -83,6 +85,8 @@
 		951817F02B687B7D0035F0A0 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		951817F52B7448520035F0A0 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		951817FB2B7500200035F0A0 /* Feed ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feed ViewModel.swift"; sourceTree = "<group>"; };
+		951817FD2B755C4D0035F0A0 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		951818012B76B8790035F0A0 /* PostGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridViewModel.swift; sourceTree = "<group>"; };
 		9552B7672B519EE400C982A4 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		9552B7692B51A45A00C982A4 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		9552B76B2B55946700C982A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -212,6 +216,25 @@
 			path = "Feed ViewModel";
 			sourceTree = "<group>";
 		};
+		951817FF2B76B80E0035F0A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95FCE72E2B49D972006CE420 /* UserStartView.swift */,
+				95FCE7482B503566006CE420 /* PostGridView.swift */,
+				95FCE73A2B4DE96C006CE420 /* IGTextFieldModifier.swift */,
+				951817F52B7448520035F0A0 /* CircularProfileImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		951818002B76B81B0035F0A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				951818012B76B8790035F0A0 /* PostGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9552B7782B559D4F00C982A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +340,7 @@
 			children = (
 				9552B7BB2B5C2A6D00C982A4 /* UserService.swift */,
 				951817F02B687B7D0035F0A0 /* ImageUploader.swift */,
+				951817FD2B755C4D0035F0A0 /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -426,10 +450,8 @@
 		95FCE72D2B49D953006CE420 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				95FCE72E2B49D972006CE420 /* UserStartView.swift */,
-				95FCE73A2B4DE96C006CE420 /* IGTextFieldModifier.swift */,
-				95FCE7482B503566006CE420 /* PostGridView.swift */,
-				951817F52B7448520035F0A0 /* CircularProfileImageView.swift */,
+				951818002B76B81B0035F0A0 /* ViewModel */,
+				951817FF2B76B80E0035F0A0 /* View */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -560,7 +582,9 @@
 				95FCE72F2B49D972006CE420 /* UserStartView.swift in Sources */,
 				9552B7B52B55A86800C982A4 /* ContentViewModel.swift in Sources */,
 				951817FC2B7500200035F0A0 /* Feed ViewModel.swift in Sources */,
+				951817FE2B755C4D0035F0A0 /* PostService.swift in Sources */,
 				951817EB2B60561C0035F0A0 /* EditProfileView.swift in Sources */,
+				951818022B76B8790035F0A0 /* PostGridViewModel.swift in Sources */,
 				9552B7BA2B5888FD00C982A4 /* LoginViewModel.swift in Sources */,
 				951817F12B687B7D0035F0A0 /* ImageUploader.swift in Sources */,
 				9552B7B82B56C8A600C982A4 /* RegistrationViewModel.swift in Sources */,
