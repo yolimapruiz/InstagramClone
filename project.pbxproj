@@ -16,6 +16,8 @@
 		951817FE2B755C4D0035F0A0 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817FD2B755C4D0035F0A0 /* PostService.swift */; };
 		951818022B76B8790035F0A0 /* PostGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951818012B76B8790035F0A0 /* PostGridViewModel.swift */; };
 		951818042B780B240035F0A0 /* FeedCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951818032B780B240035F0A0 /* FeedCellViewModel.swift */; };
+		9518180B2B798CE30035F0A0 /* ComentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518180A2B798CE30035F0A0 /* ComentsView.swift */; };
+		9518180D2B798D080035F0A0 /* ComentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518180C2B798D080035F0A0 /* ComentsCell.swift */; };
 		9552B7682B519EE500C982A4 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552B7672B519EE400C982A4 /* UploadPostView.swift */; };
 		9552B76A2B51A45A00C982A4 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552B7692B51A45A00C982A4 /* UploadPostViewModel.swift */; };
 		9552B76C2B55946700C982A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9552B76B2B55946700C982A4 /* GoogleService-Info.plist */; };
@@ -89,6 +91,8 @@
 		951817FD2B755C4D0035F0A0 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		951818012B76B8790035F0A0 /* PostGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridViewModel.swift; sourceTree = "<group>"; };
 		951818032B780B240035F0A0 /* FeedCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellViewModel.swift; sourceTree = "<group>"; };
+		9518180A2B798CE30035F0A0 /* ComentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentsView.swift; sourceTree = "<group>"; };
+		9518180C2B798D080035F0A0 /* ComentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentsCell.swift; sourceTree = "<group>"; };
 		9552B7672B519EE400C982A4 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		9552B7692B51A45A00C982A4 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		9552B76B2B55946700C982A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -238,6 +242,47 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		951818052B798C3E0035F0A0 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				951818092B798C780035F0A0 /* Model */,
+				951818082B798C730035F0A0 /* View */,
+				951818072B798C6B0035F0A0 /* ViewModel */,
+				951818062B798C660035F0A0 /* Service */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		951818062B798C660035F0A0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		951818072B798C6B0035F0A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		951818082B798C730035F0A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9518180A2B798CE30035F0A0 /* ComentsView.swift */,
+				9518180C2B798D080035F0A0 /* ComentsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		951818092B798C780035F0A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9552B7782B559D4F00C982A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +412,7 @@
 		95FCE7202B335B6C006CE420 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				951818052B798C3E0035F0A0 /* Comments */,
 				95FCE7222B335BB0006CE420 /* Authentication */,
 				95FCE72D2B49D953006CE420 /* Components */,
 				95FCE7232B335BBD006CE420 /* Feed */,
@@ -596,7 +642,9 @@
 				95FCE74B2B503752006CE420 /* ProfileHeaderView.swift in Sources */,
 				95FCE7392B4DDF4E006CE420 /* AddEmailView.swift in Sources */,
 				95FCE7432B4F24BA006CE420 /* User.swift in Sources */,
+				9518180D2B798D080035F0A0 /* ComentsCell.swift in Sources */,
 				95FCE7352B4B7027006CE420 /* SearchView.swift in Sources */,
+				9518180B2B798CE30035F0A0 /* ComentsView.swift in Sources */,
 				95FCE73B2B4DE96C006CE420 /* IGTextFieldModifier.swift in Sources */,
 				95FCE7122B335B44006CE420 /* ContentView.swift in Sources */,
 				95FCE7102B335B44006CE420 /* Instagram_cloneApp.swift in Sources */,
