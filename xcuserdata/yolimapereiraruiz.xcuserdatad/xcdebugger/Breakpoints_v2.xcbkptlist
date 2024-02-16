@@ -3,4 +3,241 @@
    uuid = "60CF5198-F67D-4CD9-AC7F-089AF8A0E2C9"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8660E1B4-4D12-43DC-A67C-F290D7C7E76C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Instagram clone/Core/Comments/View/ComentsCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08CCEA08-9661-4E32-AFF0-49181CCE971E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Instagram clone/Core/Comments/Service/CommentService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchComments()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08CCEA08-9661-4E32-AFF0-49181CCE971E - 2d1fcf0c5a1347e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Instagram_clone.CommentService.fetchComments() async throws -&gt; Swift.Array&lt;Instagram_clone.Comment&gt;"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/Service/CommentService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "08CCEA08-9661-4E32-AFF0-49181CCE971E - 3a9205fae048a813"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Instagram_clone.CommentService.fetchComments() async throws -&gt; Swift.Array&lt;Instagram_clone.Comment&gt;"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/Service/CommentService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "08CCEA08-9661-4E32-AFF0-49181CCE971E - 9d35a001ea0993ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Instagram_clone.CommentService.fetchComments() async throws -&gt; Swift.Array&lt;Instagram_clone.Comment&gt;"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/Service/CommentService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "08CCEA08-9661-4E32-AFF0-49181CCE971E - c55eadbba20509ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Instagram_clone.CommentService.fetchComments() async throws -&gt; Swift.Array&lt;Instagram_clone.Comment&gt;"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/Service/CommentService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "08CCEA08-9661-4E32-AFF0-49181CCE971E - c55eadbba20509ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Instagram_clone.CommentService.fetchComments() async throws -&gt; Swift.Array&lt;Instagram_clone.Comment&gt;"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/Service/CommentService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60C5A515-E186-4523-8573-C5685E94FD9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Instagram clone/Extensions/DeveloperPreview.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "comment"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "60C5A515-E186-4523-8573-C5685E94FD9F - b56917d07886d8f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instagram_clone.DeveloperPreview.init() -&gt; Instagram_clone.DeveloperPreview"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Extensions/DeveloperPreview.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "60C5A515-E186-4523-8573-C5685E94FD9F - b56917d07886d8d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instagram_clone.DeveloperPreview.init() -&gt; Instagram_clone.DeveloperPreview"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Extensions/DeveloperPreview.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62710393-5B7D-4E9C-B4CB-809A064E3E4A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Instagram clone/Core/Comments/ViewModel/CommentsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "fetchComments()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62710393-5B7D-4E9C-B4CB-809A064E3E4A - 604637445e62ab20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Instagram_clone.CommentsViewModel.fetchComments() async throws -&gt; ()"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/ViewModel/CommentsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "62710393-5B7D-4E9C-B4CB-809A064E3E4A - 56394fc1b45ae24d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for Instagram_clone.CommentsViewModel.fetchComments() async throws -&gt; ()"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/ViewModel/CommentsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "62710393-5B7D-4E9C-B4CB-809A064E3E4A - 2873e11e18087726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for Instagram_clone.CommentsViewModel.fetchComments() async throws -&gt; ()"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/ViewModel/CommentsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "62710393-5B7D-4E9C-B4CB-809A064E3E4A - d07890d8c22f1324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Instagram_clone.CommentsViewModel.fetchComments() async throws -&gt; ()"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Core/Comments/ViewModel/CommentsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
