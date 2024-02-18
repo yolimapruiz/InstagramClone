@@ -389,12 +389,12 @@
 		95FCE70E2B335B44006CE420 /* Instagram clone */ = {
 			isa = PBXGroup;
 			children = (
-				951818182B7C107A0035F0A0 /* Utils */,
 				95FCE7212B335B70006CE420 /* App */,
 				95FCE7202B335B6C006CE420 /* Core */,
 				95FCE71F2B335B69006CE420 /* Extensions */,
 				95FCE71E2B335B64006CE420 /* Model */,
 				95FCE71D2B335B59006CE420 /* Services */,
+				951818182B7C107A0035F0A0 /* Utils */,
 				9552B76B2B55946700C982A4 /* GoogleService-Info.plist */,
 				95FCE7132B335B46006CE420 /* Assets.xcassets */,
 				95FCE7152B335B46006CE420 /* Preview Content */,
