@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951592AF2B8397D10097C950 /* UserListConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951592AE2B8397D10097C950 /* UserListConfig.swift */; };
+		951592B12B83D64B0097C950 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951592B02B83D64B0097C950 /* UserListView.swift */; };
+		951592B32B83D6DE0097C950 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951592B22B83D6DE0097C950 /* UserListViewModel.swift */; };
 		951817EB2B60561C0035F0A0 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817EA2B60561C0035F0A0 /* EditProfileView.swift */; };
 		951817EF2B60600B0035F0A0 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817EE2B60600B0035F0A0 /* EditProfileViewModel.swift */; };
 		951817F12B687B7D0035F0A0 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951817F02B687B7D0035F0A0 /* ImageUploader.swift */; };
@@ -90,6 +93,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		951592AE2B8397D10097C950 /* UserListConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListConfig.swift; sourceTree = "<group>"; };
+		951592B02B83D64B0097C950 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		951592B22B83D6DE0097C950 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		951817EA2B60561C0035F0A0 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		951817EE2B60600B0035F0A0 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		951817F02B687B7D0035F0A0 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
@@ -241,6 +247,7 @@
 		951817FF2B76B80E0035F0A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				951592B02B83D64B0097C950 /* UserListView.swift */,
 				95FCE72E2B49D972006CE420 /* UserStartView.swift */,
 				95FCE7482B503566006CE420 /* PostGridView.swift */,
 				95FCE73A2B4DE96C006CE420 /* IGTextFieldModifier.swift */,
@@ -253,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				951818012B76B8790035F0A0 /* PostGridViewModel.swift */,
+				951592B22B83D6DE0097C950 /* UserListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -425,6 +433,7 @@
 			children = (
 				95FCE7422B4F24BA006CE420 /* User.swift */,
 				95FCE7462B4F3E06006CE420 /* Post.swift */,
+				951592AE2B8397D10097C950 /* UserListConfig.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -644,6 +653,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951592AF2B8397D10097C950 /* UserListConfig.swift in Sources */,
 				951818172B7C0D440035F0A0 /* Timestamp.swift in Sources */,
 				95FCE7332B49F8D1006CE420 /* FeedCell.swift in Sources */,
 				9552B7682B519EE500C982A4 /* UploadPostView.swift in Sources */,
@@ -654,12 +664,14 @@
 				9552B77B2B559D9200C982A4 /* AuthService.swift in Sources */,
 				9518181A2B7C108D0035F0A0 /* Constants.swift in Sources */,
 				9552B7BC2B5C2A6D00C982A4 /* UserService.swift in Sources */,
+				951592B32B83D6DE0097C950 /* UserListViewModel.swift in Sources */,
 				95FCE7472B4F3E06006CE420 /* Post.swift in Sources */,
 				95FCE7372B4B9DCD006CE420 /* LoginView.swift in Sources */,
 				95FCE7452B4F37C3006CE420 /* CurrentUserProfileView.swift in Sources */,
 				95FCE7412B4F1EC3006CE420 /* CompleteSingUpView.swift in Sources */,
 				95FCE7492B503566006CE420 /* PostGridView.swift in Sources */,
 				95FCE72F2B49D972006CE420 /* UserStartView.swift in Sources */,
+				951592B12B83D64B0097C950 /* UserListView.swift in Sources */,
 				9552B7B52B55A86800C982A4 /* ContentViewModel.swift in Sources */,
 				951818152B7A8C6C0035F0A0 /* DeveloperPreview.swift in Sources */,
 				9518181C2B7C17380035F0A0 /* ProfileViewModel.swift in Sources */,
