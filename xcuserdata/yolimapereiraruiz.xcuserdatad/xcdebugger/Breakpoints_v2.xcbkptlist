@@ -158,6 +158,21 @@
                   endingLineNumber = "25"
                   offsetFromSymbolStart = "80">
                </Location>
+               <Location
+                  uuid = "60C5A515-E186-4523-8573-C5685E94FD9F - b56917d07886d8d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instagram_clone.DeveloperPreview.init() -&gt; Instagram_clone.DeveloperPreview"
+                  moduleName = "Instagram clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yolimapereiraruiz/Library/curso%20swfit2022/Instagram%20clone/Instagram%20clone/Extensions/DeveloperPreview.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "84">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -237,6 +252,22 @@
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC1EB6EC-92C3-4BA4-8F89-A155DB12B6FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Instagram clone/Core/Profile/ViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "follow()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
